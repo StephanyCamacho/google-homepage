@@ -1,8 +1,30 @@
+body{
+    font-family: arial,sans-serif;
+    color: green;
+}
 main {
     margin: auto;
     width: 50%;
     padding: 10px;
     font-family: arial,sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.left-nav{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+.right-nav{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
 }
 
 #search-bar {
